@@ -8,6 +8,7 @@ Local, lightweight Voice-enabled RAG playground with FastAPI and a simple vector
 - Local vector store persisted as numpy + pickle
 - Optional OpenAI chat completions (new OpenAI SDK) or local llama.cpp fallback
 - Utilities to turn a source JSON into chunks and build FAISS/Chroma indexes
+- Simple React frontend (Vite) with text chat and microphone recording
 
 ## Repo layout
 - `backend/main.py` FastAPI app (local store, optional OpenAI/llama.cpp, audio helpers)
@@ -70,6 +71,23 @@ Health check:
 - POST `http://localhost:8000/upload-audio`
   - Form: `file=<audio>`
   - Converts to wav (ffmpeg), transcribes with `whisper-cli` if present, answers and returns TTS wav base64
+
+## Frontend (Vite + React)
+A minimal chat UI with text input and microphone recording lives under `frontend/`.
+
+Run the dev server:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Then open the printed Vite URL (e.g., http://localhost:5173). The app expects the backend at `http://localhost:8000`. If you need to change it, edit the fetch URLs in `frontend/src/app.jsx`.
+
+What it can do:
+- Send text questions to `POST /query`
+- Record audio via mic, send to `POST /upload-audio`, and auto-play the TTS answer if provided
 
 ## Build utilities
 - Transform raw KB to chunks:

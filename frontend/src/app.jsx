@@ -2,27 +2,56 @@ import React, { useRef, useState } from "react";
 import ReactDOM from "react-dom/client";
 
 function App() {
-  const [recording, setRecording] = useState(false);
-  const [transcript, setTranscript] = useState("");
-  const [answer, setAnswer] = useState("");
+  const [messages, setMessages] = useState([]); // {role: 'user'|'assistant'|'system', text}
+  const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
+  const [recording, setRecording] = useState(false);
   const mediaRecorderRef = useRef(null);
   const chunksRef = useRef([]);
 
+  const appendMessage = (msg) => setMessages((m) => [...m, msg]);
+
+  const sendText = async () => {
+    const q = input.trim();
+    if (!q || loading) return;
+    setInput("");
+    appendMessage({ role: "user", text: q });
+    setLoading(true);
+    try {
+      // Backend accepts JSON or form; use JSON
+      const res = await fetch("http://localhost:8000/query", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ q, k: 4 })
+      });
+      const j = await res.json();
+      const answer = j.answer || "";
+      appendMessage({ role: "assistant", text: answer || "(no answer)" });
+    } catch (e) {
+      appendMessage({ role: "system", text: "Request failed: " + e.message });
+    } finally {
+      setLoading(false);
+    }
+  };
+
   const startRecording = async () => {
-    setTranscript(""); setAnswer("");
-    const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-    const mr = new MediaRecorder(stream);
-    mediaRecorderRef.current = mr;
-    chunksRef.current = [];
-    mr.ondataavailable = (e) => chunksRef.current.push(e.data);
-    mr.onstop = async () => {
-      const blob = new Blob(chunksRef.current, { type: "audio/webm" });
-      await uploadAudio(blob);
-      stream.getTracks().forEach((t) => t.stop());
-    };
-    mr.start();
-    setRecording(true);
+    if (loading) return;
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      const mr = new MediaRecorder(stream);
+      mediaRecorderRef.current = mr;
+      chunksRef.current = [];
+      mr.ondataavailable = (e) => chunksRef.current.push(e.data);
+      mr.onstop = async () => {
+        const blob = new Blob(chunksRef.current, { type: "audio/webm" });
+        await uploadAudio(blob);
+        stream.getTracks().forEach((t) => t.stop());
+      };
+      mr.start();
+      setRecording(true);
+    } catch (e) {
+      alert("Mic permission denied or unsupported browser.");
+    }
   };
 
   const stopRecording = () => {
@@ -34,13 +63,15 @@ function App() {
 
   const uploadAudio = async (blob) => {
     setLoading(true);
-    const fd = new FormData();
-    fd.append("file", blob, "recording.webm");
     try {
+      const fd = new FormData();
+      fd.append("file", blob, "recording.webm");
       const res = await fetch("http://localhost:8000/upload-audio", { method: "POST", body: fd });
       const j = await res.json();
-      setTranscript(j.transcript || "");
-      setAnswer(j.answer || "");
+      const transcript = j.transcript || "";
+      const answer = j.answer || "";
+      if (transcript) appendMessage({ role: "user", text: transcript });
+      appendMessage({ role: "assistant", text: answer || "(no answer)" });
       if (j.audio_base64) {
         const binary = atob(j.audio_base64);
         const len = binary.length;
@@ -51,33 +82,41 @@ function App() {
         const audio = new Audio(url);
         audio.play();
       }
-    } catch (err) {
-      alert("Upload failed: " + err.message);
+    } catch (e) {
+      appendMessage({ role: "system", text: "Audio upload failed: " + e.message });
     } finally {
       setLoading(false);
     }
   };
 
   return (
-    <div style={{ padding: 20, fontFamily: "sans-serif" }}>
-      <h2>RAG Voice Chat — Local</h2>
-      <div>
-        <button onClick={recording ? stopRecording : startRecording}>
-          {recording ? "Stop" : "Record (mic)"}
+    <div style={{ padding: 20, fontFamily: "system-ui, -apple-system, Segoe UI, Roboto, sans-serif" }}>
+      <h2>Voice-RAG Chat</h2>
+      <div style={{ margin: "12px 0", display: "flex", gap: 8 }}>
+        <input
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+          onKeyDown={(e) => e.key === "Enter" && sendText()}
+          placeholder="Type your question..."
+          style={{ flex: 1, padding: "10px 12px", borderRadius: 8, border: "1px solid #ccc" }}
+        />
+        <button onClick={sendText} disabled={loading}>
+          {loading ? "..." : "Send"}
         </button>
-        {loading && <span style={{ marginLeft: 10 }}>Processing...</span>}
+        <button onClick={recording ? stopRecording : startRecording}>
+          {recording ? "Stop" : "🎤 Record"}
+        </button>
       </div>
-      <div style={{ marginTop: 18 }}>
-        <strong>Transcript:</strong>
-        <div style={{ whiteSpace: "pre-wrap", background: "#111", color: "#fff", padding: 10, borderRadius: 6, marginTop: 6 }}>
-          {transcript || "—"}
-        </div>
-      </div>
-      <div style={{ marginTop: 12 }}>
-        <strong>AI Answer:</strong>
-        <div style={{ whiteSpace: "pre-wrap", background: "#eee", padding: 10, borderRadius: 6, marginTop: 6 }}>
-          {answer || "—"}
-        </div>
+      <div style={{ border: "1px solid #e5e7eb", borderRadius: 8, padding: 12, minHeight: 260 }}>
+        {messages.length === 0 && (
+          <div style={{ color: "#666" }}>Ask something or use the mic to speak.</div>
+        )}
+        {messages.map((m, i) => (
+          <div key={i} style={{ marginBottom: 10 }}>
+            <div style={{ fontSize: 12, color: "#888", marginBottom: 4 }}>{m.role}</div>
+            <div style={{ whiteSpace: "pre-wrap" }}>{m.text}</div>
+          </div>
+        ))}
       </div>
     </div>
   );
@@ -85,3 +124,4 @@ function App() {
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);
+
