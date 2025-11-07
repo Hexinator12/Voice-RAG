@@ -1,0 +1,944 @@
+{
+  "ids": [
+    "aa7a1811-8dee-4977-b974-5bfbf4a38d85",
+    "cffba693-1dbc-485c-a4e4-d0b31ffee39e",
+    "19799570-0894-41ba-8c9f-3150eec969fb",
+    "fc90a1e7-5512-400c-91e3-16a0f3540951",
+    "4335f088-1edb-45e8-8ad8-87aa4001f5c3",
+    "939ec871-1b25-44c7-a728-70efbc21ce34",
+    "09ec30dc-75c9-49a2-92a6-6ff47aa364be",
+    "faa6e8a1-fea6-4db4-b8d9-fdd6c42115f4",
+    "4bc451ab-bda3-4072-8c69-08fb97bcaca4",
+    "58cf1b09-9e55-46ff-922e-3b3955e4d0d6",
+    "9b44784f-dd17-4674-8d2a-8465d8efdbd2",
+    "390edbc8-47e5-419f-866f-87c40f93f328",
+    "adc8b789-b692-4c67-8b3d-6f3e6ade7872",
+    "eca92e5d-911d-44be-ba27-a748bb0696ca",
+    "d2600b68-cc77-4957-9ae5-8070c10c2156",
+    "60b8c9cb-f36a-4424-9401-ecfe5197260e",
+    "734959ef-666e-42bc-82ec-80042a17e506",
+    "94e84a86-807b-46d8-96c6-b7a35333e24c",
+    "a06ef027-96c3-41c2-ac38-8eef98d6f8a9",
+    "b0aace39-7d69-4a7b-8af6-b98b3b1fbe3c",
+    "1b2c97d1-dd86-4744-8fe7-1ffba2af39ea",
+    "949c0333-552d-4c68-adf4-8af1a86f9774",
+    "bcc2c022-c11f-4f97-b23e-2a107abc1041",
+    "1e98d962-4f15-4357-9066-35c3f12553ca",
+    "13fd2174-9818-48e0-a129-b1b9c1616483",
+    "0e1afe20-1c52-4fe1-853b-466f448ce2e8",
+    "ff08d50b-7f42-4b4f-9286-8f2bb1e8b947",
+    "dfcc2cd3-7e47-48cb-9a24-d4db1fbb7933",
+    "f1714de8-a800-4e77-8a9a-84b17dae1930",
+    "102ce242-7a89-4735-ac34-0679b0013f0f",
+    "d36d8d2f-0d42-400d-9b33-94a53752358a",
+    "89d42ae1-d0ca-4e11-9b1a-fc18b1b6b0bc",
+    "616255fa-3562-4627-ac79-88650dfc067d",
+    "e8c63e0e-335b-40be-aff9-ab816a9f9cb3",
+    "f9e560de-6134-4271-a72a-514f767b1494",
+    "ff7b3587-5870-4d1e-bf66-558404711e7e",
+    "64e63f1d-d57a-42ca-9622-fc4dd6ae05b0",
+    "ceb33ed1-c638-4871-9621-91b394622a52",
+    "efcd3d42-d0ee-4b2c-96d2-288a0a240fbb",
+    "ec2df960-4d43-492c-9e0d-f1200a750573",
+    "45da8b24-a308-4129-ae6a-993f96297148",
+    "4c49f591-aa26-478d-9349-206653a9aa80",
+    "88eb8e62-a07e-417e-bd7d-c3f88b5d2cf9",
+    "ee4aeb49-8ed7-4259-8680-f9ebd5da7df4",
+    "46874884-5860-4447-b63b-7ff30df563f3",
+    "cfc61777-4123-4218-b951-2df276a282a5",
+    "c6960a66-fa0b-44ee-8c1c-9276bdf5c595",
+    "2f2288e7-fbb8-4720-b7da-e0ea0567c973",
+    "d81f9d27-ee9f-4322-8aa4-1dc4dae2f5dd",
+    "ed4fb3f2-3a4d-476f-812e-0dfea4f1615b",
+    "09de5345-4d2e-4812-aa70-d9de7b6af33c",
+    "abb23ad4-2586-481d-bd32-12123800147a",
+    "3a86115a-7936-4397-876b-d84925433dba",
+    "1d4e8072-6936-41ae-8581-f0d445ef9afe",
+    "6cc44296-6f0b-4f57-870f-6f6d26833e1a",
+    "d861156f-f263-4df8-892b-1759a7663629",
+    "5ef24a6f-2959-4240-84e3-4c14b7834dc7",
+    "94b55014-018b-4ec0-b565-c05aee2d8a8c",
+    "7e64e3ad-2a51-4504-a79e-4cf589112575",
+    "7c998cbf-2919-4ef7-9b40-4e95f6c327ad",
+    "3a217ebf-e1c6-4e31-b708-dec44ab8788f",
+    "161c4f4d-198b-409f-9da4-6843f59ccb1c",
+    "5a0fecd0-7e7f-4563-bdcc-f5c81fa921af",
+    "0470cafa-6b78-4604-865b-2392919db850",
+    "4b001130-44a7-4c45-abf2-2f93ac678fa4",
+    "fef44480-56e7-4fb5-887c-ac4d12bca30d",
+    "225d3303-ee52-41c4-a610-e5d3a1c1413c",
+    "12bbd5f5-7b0d-4885-9673-1cf0c4ac17a2",
+    "8d21b7ca-e293-4c07-9199-ee1cc949aee5",
+    "94d4e182-2b4f-4949-bf4a-97db37898eae",
+    "12922775-9be8-41f7-bdf3-3edee9161d67",
+    "5a0eee19-1f1f-448d-a148-aa8220a6b372",
+    "551c8b57-d603-4f35-8702-02b412e0fb36",
+    "3c1124c0-e41b-444f-abaf-827f0880c882",
+    "3d28ddde-6ae4-45fc-8735-f50c733d7f13",
+    "e8ea2d9a-82a8-4057-8901-6c0c4d1a7e36",
+    "4a7b8eca-28fd-4de8-98fa-2ac6ad488378",
+    "bfc65bbe-d521-4bfe-abe5-23e0bea0216e",
+    "d5b4c491-37af-49be-af01-d4d2d985157f",
+    "92ca2b1f-0692-4996-b59f-094330a8aa4b",
+    "a4c9ee38-2f68-4ae7-9708-d512398188b2",
+    "857102d6-69e4-46fd-bfd0-044f02d0dfc0",
+    "c55c30fa-3cc7-4538-a35e-da49304434b2",
+    "5efa27ff-543d-490f-9d22-3fd205ed69c4",
+    "3e17306f-c2bc-418b-8c36-b57a316d88f1",
+    "aca8b508-1607-45b6-b7f7-08c2cd264b7c",
+    "d144ffc0-41f5-4541-8ac0-7ab859283aca",
+    "d40c7178-2fbf-4d35-97b9-d6c564433285",
+    "ab809f6e-d9fc-4d7d-aac1-b0a6d104c4cb",
+    "585966d2-ecb6-435c-ac04-7ae0656f5fff",
+    "7639489b-1a1e-476d-b60b-0033d80eb057",
+    "a9b5de75-9588-421e-a70c-ea8f979b298d",
+    "5d5003e1-4fb9-4393-8a71-f8dd1946bc77",
+    "57e83215-1157-48ab-9be0-57ae06655359",
+    "b3657068-2bd3-4dd2-ac26-faec20f9c5ad",
+    "00245db3-55d9-417a-be4d-18ec83db62a5",
+    "7d2e5ad1-7e08-4608-b75e-e39fd5e388ce",
+    "13e534db-f9d1-4999-8ae0-72228722c82b",
+    "30023ede-e146-4608-9035-0fd05250ab98",
+    "83ad5c6f-4845-4795-876b-69dc39a4e8b3",
+    "f8cd510d-55c1-4f00-8f58-3365e2bc90fa",
+    "791f0484-c522-4525-991d-06ac067a3743",
+    "3cbc7309-c928-42c7-bb04-d26e3bb2d40e",
+    "ad5b8a7f-60e4-4f28-b780-28b8fca25989",
+    "0ca3a3ad-dfbe-4912-a2af-97772b20ebb4",
+    "413f05a0-f56c-4aaa-a5a4-c52d3ee474b6",
+    "bb277f32-3678-4ec5-9abc-bf529c32240f",
+    "2593767b-329e-4a61-9541-f4488d906f2d",
+    "78055aea-cdb4-413c-bafa-d158a95dd00e",
+    "7385b903-121b-4631-9884-5c7332dd29ee",
+    "50ff0cfa-6296-4e8f-9a7d-09e26a3558c5",
+    "28bfb12d-ae3a-4cc8-8363-bd4cdba29909",
+    "8d985cf3-39a1-4ced-845f-0f211a2c5d9e",
+    "7d84f15b-720d-4e98-958f-d0c2c8140ef3",
+    "969ee131-3fd3-4372-ab7c-ed324a033288",
+    "0b21244b-eeff-46f3-b226-9e8bb4c782d7",
+    "87c13ce0-0c67-402b-b5e6-d3a2c3362a5d"
+  ],
+  "metadatas": [
+    {
+      "source": "programs",
+      "original_index": 0,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "programs",
+      "original_index": 1,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "programs",
+      "original_index": 2,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "programs",
+      "original_index": 3,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "programs",
+      "original_index": 4,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "programs",
+      "original_index": 5,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "courses",
+      "original_index": 0,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "courses",
+      "original_index": 1,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "courses",
+      "original_index": 2,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "courses",
+      "original_index": 3,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "courses",
+      "original_index": 4,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "courses",
+      "original_index": 5,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "courses",
+      "original_index": 6,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "courses",
+      "original_index": 7,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "courses",
+      "original_index": 8,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "courses",
+      "original_index": 9,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "courses",
+      "original_index": 10,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "courses",
+      "original_index": 11,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "faculty",
+      "original_index": 0,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "faculty",
+      "original_index": 1,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "faculty",
+      "original_index": 2,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "faculty",
+      "original_index": 3,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "faculty",
+      "original_index": 4,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "faculty",
+      "original_index": 5,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "faculty",
+      "original_index": 6,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "faculty",
+      "original_index": 7,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "admissions",
+      "original_index": 0,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "admissions",
+      "original_index": 1,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "admissions",
+      "original_index": 2,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "admissions",
+      "original_index": 3,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "admissions",
+      "original_index": 4,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "admissions",
+      "original_index": 5,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "fees",
+      "original_index": 0,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "fees",
+      "original_index": 1,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "fees",
+      "original_index": 2,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "fees",
+      "original_index": 3,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "fees",
+      "original_index": 4,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "fees",
+      "original_index": 5,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "scholarships",
+      "original_index": 0,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "scholarships",
+      "original_index": 1,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "scholarships",
+      "original_index": 2,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "scholarships",
+      "original_index": 3,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "faqs",
+      "original_index": 0,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "faqs",
+      "original_index": 1,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "faqs",
+      "original_index": 2,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "faqs",
+      "original_index": 3,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "faqs",
+      "original_index": 4,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "faqs",
+      "original_index": 5,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "faqs",
+      "original_index": 6,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "faqs",
+      "original_index": 7,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "faqs",
+      "original_index": 8,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "faqs",
+      "original_index": 9,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "placements",
+      "original_index": 0,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "placements",
+      "original_index": 1,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "placements",
+      "original_index": 2,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "placements",
+      "original_index": 3,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "placements",
+      "original_index": 4,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "placements",
+      "original_index": 5,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "hostel",
+      "original_index": 0,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "hostel",
+      "original_index": 1,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "hostel",
+      "original_index": 2,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "contacts",
+      "original_index": 0,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "contacts",
+      "original_index": 1,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "contacts",
+      "original_index": 2,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "contacts",
+      "original_index": 3,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "contacts",
+      "original_index": 4,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "contacts",
+      "original_index": 5,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "events",
+      "original_index": 0,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "events",
+      "original_index": 1,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "events",
+      "original_index": 2,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "events",
+      "original_index": 3,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "policies",
+      "original_index": 0,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "policies",
+      "original_index": 1,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "policies",
+      "original_index": 2,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "announcements",
+      "original_index": 0,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "announcements",
+      "original_index": 1,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "announcements",
+      "original_index": 2,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 0,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 1,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 2,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 3,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 4,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 5,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 6,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 7,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 8,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 9,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 10,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 11,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 12,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 13,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 14,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 15,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 16,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 17,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 18,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 19,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 20,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 21,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 22,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 23,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 24,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 25,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 26,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 27,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 28,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 29,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 30,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 31,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 32,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 33,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 34,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 35,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 36,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 37,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 38,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    },
+    {
+      "source": "qa_pairs",
+      "original_index": 39,
+      "chunk_index": 0,
+      "created_on": "2025-11-05"
+    }
+  ],
+  "texts": [
+    "id: prog_btech_ai | name: B.Tech in Artificial Intelligence | duration: 4 years | degree: B.Tech | description: Undergraduate engineering program focusing on machine learning, deep learning, computer vision, and NLP with industry projects. | eligibility_summary: 10+2 with PCM, minimum 60% aggregate or JEE Main score as per institute cutoff | official_document: syllabus_btech_ai_2025.pdf | last_updated: 2025-08-01",
+    "id: prog_bdes | name: B.Design (Industrial Design) | duration: 4 years | degree: B.Des | description: Design program focused on product design, user experience, and prototyping. Portfolio required for admission. | eligibility_summary: 10+2 in any stream; portfolio required; design entrance test. | official_document: bdes_portfolio_guidelines.pdf | last_updated: 2025-07-10",
+    "id: prog_mba | name: MBA (Business Analytics) | duration: 2 years | degree: MBA | description: Postgraduate program combining business fundamentals with data analytics, statistical modeling, and practical industry projects. | eligibility_summary: Bachelor's degree with minimum 50%; CAT / MAT / XAT / Institute entrance test. | official_document: mba_business_analytics_brochure.pdf | last_updated: 2025-09-12",
+    "id: prog_ba_journalism | name: BA in Media & Journalism | duration: 3 years | degree: BA | description: Covers reporting, multimedia journalism, ethics, and media law with hands-on studio practice. | eligibility_summary: 10+2 in any stream; personal interview for shortlisted candidates. | official_document: ba_media_curriculum.pdf | last_updated: 2025-06-15",
+    "id: prog_mtech_cs | name: M.Tech in Computer Science | duration: 2 years | degree: M.Tech | description: Advanced program with research and elective tracks in distributed systems, ML, and cybersecurity. | eligibility_summary: B.Tech or equivalent in relevant discipline; GATE preferred. | official_document: mtech_cs_outline.pdf | last_updated: 2025-05-20",
+    "id: prog_bcom | name: B.Com (Honours) | duration: 3 years | degree: B.Com | description: Commerce program with specialization options in finance, accounting, and taxation. | eligibility_summary: 10+2 in commerce or equivalent with minimum 50%. | official_document: bcom_hons_structure.pdf | last_updated: 2025-04-10",
+    "id: course_ai_ml | program_id: prog_btech_ai | code: AI301 | title: Machine Learning | semester: 5 | credits: 4 | short_description: Supervised and unsupervised learning, evaluation metrics, model selection, and practical labs.",
+    "id: course_ai_dl | program_id: prog_btech_ai | code: AI401 | title: Deep Learning | semester: 7 | credits: 4 | short_description: Neural networks, CNNs, RNNs, transformers, and project work.",
+    "id: course_design_ideation | program_id: prog_bdes | code: DES101 | title: Design Thinking & Ideation | semester: 1 | credits: 3 | short_description: Human-centered design, prototyping methods, case studies.",
+    "id: course_stats | program_id: prog_mba | code: BA201 | title: Business Statistics | semester: 1 | credits: 3 | short_description: Descriptive statistics, probability distributions, hypothesis testing.",
+    "id: course_journalism_reporting | program_id: prog_ba_journalism | code: MJ102 | title: News Reporting & Writing | semester: 1 | credits: 3 | short_description: Basics of news gathering, ethics, and writing for print and digital.",
+    "id: course_cs_security | program_id: prog_mtech_cs | code: CS501 | title: Advanced Cybersecurity | semester: 3 | credits: 4 | short_description: Network security, crypto primitives, secure systems design.",
+    "id: course_fin_acct | program_id: prog_bcom | code: BC201 | title: Financial Accounting | semester: 2 | credits: 3 | short_description: Accounting principles, ledgers, and financial statements.",
+    "id: course_ai_project | program_id: prog_btech_ai | code: AI499 | title: Capstone Project | semester: 8 | credits: 8 | short_description: Industry-linked or research capstone project.",
+    "id: course_design_prototyping | program_id: prog_bdes | code: DES301 | title: Prototyping & Materials | semester: 5 | credits: 3 | short_description: Physical prototyping, material selection, CAD basics.",
+    "id: course_mba_case | program_id: prog_mba | code: BA402 | title: Case Methods in Analytics | semester: 4 | credits: 3 | short_description: Business case analysis using quantitative tools.",
+    "id: course_journalism_media_law | program_id: prog_ba_journalism | code: MJ204 | title: Media Law and Ethics | semester: 3 | credits: 3 | short_description: Media regulation, defamation, privacy and ethical reporting.",
+    "id: course_cs_research_methods | program_id: prog_mtech_cs | code: CS601 | title: Research Methods | semester: 1 | credits: 2 | short_description: Research design, literature review, and scientific writing.",
+    "id: fac_dr_meera | name: Dr. Meera Sharma | department: Computer Science | designation: Associate Professor | specialization: Machine Learning, NLP | email: meera.sharma@example.edu | office_hours: Tue 2:00-4:00pm",
+    "id: fac_prof_kunal | name: Prof. Kunal Patel | department: Design | designation: Professor | specialization: Industrial Design, Prototyping | email: kunal.patel@example.edu | office_hours: Wed 11:00am-1:00pm",
+    "id: fac_dr_raj | name: Dr. Rajesh Iyer | department: Management | designation: Assistant Professor | specialization: Business Analytics | email: rajesh.iyer@example.edu | office_hours: Mon 3:00-5:00pm",
+    "id: fac_ms_sneha | name: Ms. Sneha Desai | department: Media | designation: Lecturer | specialization: Reporting, Multimedia | email: sneha.desai@example.edu | office_hours: Thu 10:00am-12:00pm",
+    "id: fac_dr_amit | name: Dr. Amit Joshi | department: Computer Science | designation: Professor | specialization: Cybersecurity | email: amit.joshi@example.edu | office_hours: Fri 1:00-3:00pm",
+    "id: fac_ms_ria | name: Ms. Ria Verma | department: Commerce | designation: Assistant Professor | specialization: Accounting | email: ria.verma@example.edu | office_hours: Mon 10:00-11:30am",
+    "id: fac_dr_sahil | name: Dr. Sahil Mehta | department: Computer Science | designation: Associate Professor | specialization: Distributed Systems | email: sahil.mehta@example.edu | office_hours: Wed 3:00-5:00pm",
+    "id: fac_ms_anjali | name: Ms. Anjali Rao | department: Design | designation: Assistant Professor | specialization: UX Design | email: anjali.rao@example.edu | office_hours: Tue 11:00am-12:30pm",
+    "id: adm_undergrad_general | type: Undergraduate | application_steps: Fill online application form, Upload 10+2 mark sheet and photo ID, Pay application fee, Appear for design/entrance if applicable, Attend interview (if shortlisted) | application_fee: ₹1200 | important_dates: applications_open=2025-01-15, applications_close=2025-06-30, merit_list=2025-07-15",
+    "id: adm_postgrad_general | type: Postgraduate | application_steps: Fill online application, Upload degree certificate and transcripts, Submit entrance test scores (if available), Interview for final selection | application_fee: ₹1500 | important_dates: applications_open=2025-02-01, applications_close=2025-07-31, interviews_start=2025-08-10",
+    "id: adm_scholarship_docs | type: Scholarship | required_documents: Income certificate, Previous year grade transcript, Scholarship application form",
+    "id: adm_portfolio | type: Portfolio | notes: B.Design applicants must upload a 10-page PDF portfolio; accepted formats: PDF; max size 10MB.",
+    "id: adm_hostel | type: Hostel Allotment | process: Apply online for hostel within 7 days of admission, Pay hostel deposit, Submit medical form",
+    "id: adm_transfer | type: Lateral Entry / Transfer | notes: Subject to availability and eligibility; requires transcripts and NOC from previous institute.",
+    "id: fee_btech_ai_year | program_id: prog_btech_ai | amount_per_year: ₹180000 | payment_schedule: Yearly | refund_policy: Full refund within 7 days; after 30 days no refund",
+    "id: fee_bdes_year | program_id: prog_bdes | amount_per_year: ₹150000 | payment_schedule: Yearly | refund_policy: Full refund within 10 days; prorated refund within first 30 days",
+    "id: fee_mba_year | program_id: prog_mba | amount_per_year: ₹220000 | payment_schedule: Semester | refund_policy: Subject to institute rules",
+    "id: fee_hostel_single | type: Hostel - Single | amount_per_year: ₹60000 | notes: Includes basic mess facilities",
+    "id: fee_hostel_shared | type: Hostel - Shared | amount_per_year: ₹42000 | notes: Shared room with three students",
+    "id: fee_processing | type: Application Processing Fee | amount: ₹1200 | notes: Non-refundable",
+    "id: scholar_merit_top10 | name: Merit Scholarship - Top 10 | eligibility: Top 10 rank holders in entrance/merit list | benefit: 50% tuition waiver | application_required: False | last_updated: 2025-03-01",
+    "id: scholar_sports | name: Sports Scholarship | eligibility: State or national level representation | benefit: 25-40% tuition waiver depending on level | application_required: Submission of certificates",
+    "id: scholar_need_based | name: Need-based Assistance | eligibility: Household income below ₹3,00,000 per annum | benefit: Up to 75% tuition support subject to verification | application_required: True",
+    "id: scholar_female_stem | name: Women in STEM Scholarship | eligibility: Female students enrolling in engineering or CS programs | benefit: 20% tuition waiver | application_required: True",
+    "id: faq_admission_deadline | question: When do applications for undergraduate programs close? | answer: For 2025, undergraduate applications close on June 30, 2025. Always confirm the dates on the admissions page as they may change.",
+    "id: faq_portfolio_requirement | question: Do I need a portfolio for B.Design? | answer: Yes. B.Design applicants must submit a 10-page PDF portfolio demonstrating design projects, sketches, and process work.",
+    "id: faq_refund_policy | question: What is the fee refund policy? | answer: Full refund if withdrawn within 7-10 days (program dependent). After 30 days, refunds are typically not provided. Check the program fee page for exact timelines.",
+    "id: faq_hostel_apply | question: How do I apply for hostel accommodation? | answer: Apply within 7 days of admission via the student portal and pay the hostel deposit to confirm your seat.",
+    "id: faq_placement_stats | question: What are the placement statistics? | answer: Placement stats vary by program; the latest placement report is published annually. Example: Computer Science average package (2024): ₹7.2 LPA.",
+    "id: faq_internship_support | question: Does the college help with internships? | answer: Yes. The placement cell maintains internship listings and assists students with applications and resume review.",
+    "id: faq_medical_emergency | question: What to do in a medical emergency on campus? | answer: Contact campus medical center at +91-79-XXXXXXX or visit the medical clinic located near the north gate. Emergency ambulance services are available.",
+    "id: faq_contact_admissions | question: How can I contact admissions? | answer: Email admissions@example.edu or call +91-79-YYYYYYYY during office hours (Mon-Fri 9:30am-5:30pm).",
+    "id: faq_exam_policy | question: What is the exam re-evaluation procedure? | answer: Students can apply for re-evaluation within 10 days of results announcement by submitting the form and paying the fee.",
+    "id: faq_scholarship_apply | question: How to apply for scholarships? | answer: Most scholarships require an online application, supporting documents, and income proof where applicable.",
+    "id: place_recruiters | top_recruiters: Tata Consultancy Services, Infosys, Accenture, Flipkart, Cognizant | average_package_cs_2024: ₹7.2 LPA | highest_package_2024: ₹18 LPA | placement_cell_contact: placements@example.edu",
+    "id: place_internship_guidelines | guidelines: Students must register internships through the placement portal. Internship credits are awarded after supervisor evaluation.",
+    "id: place_alumni_success | examples: {'name': 'Asha Kumar', 'company': 'Flipkart', 'role': 'Product Manager'}, {'name': 'Rahul Desai', 'company': 'Razorpay', 'role': 'Software Engineer'}",
+    "id: place_placement_timeline | timeline: pre_placement_talks=Aug-Sep, application_window=Sep-Oct, final_placements=Nov-Dec",
+    "id: place_contact | placement_office: Room 210, Admin Block | office_hours: Mon-Fri 10:00am-4:00pm",
+    "id: place_resources | resources_link: placement_resources_handbook.pdf",
+    "id: hostel_block_a | name: Hostel Block A | type: Single occupancy | capacity: 120 | amenities: Mess, Laundry, Wi-Fi, Common room | warden_contact: +91-79-AAAABBBB",
+    "id: hostel_block_b | name: Hostel Block B | type: Shared (3 per room) | capacity: 240 | amenities: Mess, Study room, Wi-Fi | warden_contact: +91-79-CCCCDDDD",
+    "id: hostel_rules_summary | rules: Curfew at 11:00pm for undergraduates on weekdays, No outsiders allowed after 9:00pm, Maintain mess discipline",
+    "id: contact_admissions | office: Admissions Office | email: admissions@example.edu | phone: +91-79-YYYYYYYY | hours: Mon-Fri 9:30am-5:30pm",
+    "id: contact_placement | office: Placement Cell | email: placements@example.edu | phone: +91-79-ZZZZ1111",
+    "id: contact_medical | office: Campus Medical Center | email: medical@example.edu | phone: +91-79-88889999 | hours: 24x7",
+    "id: contact_library | office: Library | email: library@example.edu | phone: +91-79-77776666 | hours: Mon-Sat 9:00am-8:00pm",
+    "id: contact_hostel | office: Hostel Office | email: hostel@example.edu | phone: +91-79-55554444",
+    "id: contact_tech_support | office: IT Helpdesk | email: ithelp@example.edu | phone: +91-79-33332222 | hours: Mon-Fri 9:00am-6:00pm",
+    "id: event_techfest_2025 | title: TechFest 2025 | date: 2025-10-12 | description: Annual technical festival with hackathons, workshops, and guest talks.",
+    "id: event_design_showcase | title: Design Showcase | date: 2025-11-20 | description: Student design exhibition highlighting final-year projects.",
+    "id: event_internship_fair | title: Internship Fair | date: 2025-09-15 | description: Companies and startups present internship opportunities to students.",
+    "id: event_placement_workshop | title: Resume & Interview Workshop | date: 2025-08-25 | description: Hands-on workshop run by placement cell and industry mentors.",
+    "id: policy_attendance | title: Attendance Policy | summary: Students must maintain minimum 75% attendance to be eligible for end semester exams. Medical exemptions require documentation.",
+    "id: policy_academic_integrity | title: Academic Integrity Policy | summary: Plagiarism and cheating are punishable; re-exams or disciplinary actions may be taken.",
+    "id: policy_refund | title: Fee Refund Policy | summary: Full refund within 7-10 days depending on program; partial refunds limited within first 30 days.",
+    "id: annc_exam_schedule_sem2 | title: Semester 2 Exam Schedule Released | date: 2025-10-01 | content: Semester 2 exam schedule is available on the student portal. Check your department page for venue and timing.",
+    "id: annc_hostel_vacancy | title: Hostel Vacancies for Spring | date: 2025-09-20 | content: Limited hostel seats available for Spring semester. Apply via the hostel portal by Sep 30, 2025.",
+    "id: annc_internship_fair_reminder | title: Internship Fair Reminder | date: 2025-09-10 | content: Internship Fair on Sep 15. Register on the placement portal by Sep 13, 2025.",
+    "id: q1 | question: What programs do you offer in engineering? | answer: We offer B.Tech programs including B.Tech in Artificial Intelligence and M.Tech in Computer Science. See the programs list for details.",
+    "id: q2 | question: What is the eligibility for B.Tech in Artificial Intelligence? | answer: Eligibility: 10+2 with Physics, Chemistry and Mathematics with a minimum 60% aggregate or a qualifying JEE Main score as per institute cutoff.",
+    "id: q3 | question: Do B.Design applicants need a portfolio? | answer: Yes. B.Design applicants must submit a 10-page PDF portfolio demonstrating design projects and sketches. Maximum size 10MB.",
+    "id: q4 | question: When do undergraduate applications close? | answer: Undergraduate applications close on June 30, 2025 for the 2025 intake.",
+    "id: q5 | question: How do I apply for hostel accommodation? | answer: Apply within 7 days of admission via the student portal and pay the hostel deposit to confirm your seat.",
+    "id: q6 | question: What is the tuition fee for B.Tech AI? | answer: The tuition fee for B.Tech in Artificial Intelligence is ₹1,80,000 per year.",
+    "id: q7 | question: Are scholarships available for merit students? | answer: Yes. Merit Scholarship - Top 10 offers a 50% tuition waiver for top 10 rank holders.",
+    "id: q8 | question: How do I contact the placement cell? | answer: Email placements@example.edu or visit the Placement Cell in Room 210, Admin Block.",
+    "id: q9 | question: What are the hostel types and costs? | answer: Hostel Block A is single occupancy at ₹60,000/year; Block B is shared (3 per room) at ₹42,000/year.",
+    "id: q10 | question: Who teaches Machine Learning? | answer: Dr. Meera Sharma, Associate Professor in Computer Science, specializes in Machine Learning and NLP.",
+    "id: q11 | question: What is the refund policy? | answer: Full refund if withdrawn within 7-10 days depending on the program; after 30 days refunds are typically not provided.",
+    "id: q12 | question: When is TechFest 2025? | answer: TechFest 2025 is scheduled for October 12, 2025.",
+    "id: q13 | question: How do I apply for scholarships? | answer: Most scholarships require an online application with supporting documents such as income proof and transcripts.",
+    "id: q14 | question: Does the college help with internships? | answer: Yes. The placement cell maintains internship listings and assists students with applications and resume review.",
+    "id: q15 | question: What is the average package for CS in 2024? | answer: Example: Computer Science average package (2024): ₹7.2 LPA.",
+    "id: q16 | question: How many credits is the Capstone Project? | answer: The Capstone Project (AI499) is 8 credits and typically taken in semester 8.",
+    "id: q17 | question: What documents are required for admissions? | answer: Common documents: 10+2 marksheet, photo ID, passport-size photograph, transfer certificate (if applicable). See admissions page for full list.",
+    "id: q18 | question: What are office hours for the admissions office? | answer: Admissions office hours are Monday to Friday 9:30am to 5:30pm.",
+    "id: q19 | question: How to request a re-evaluation of exam results? | answer: Apply for re-evaluation within 10 days of results announcement by submitting the form and paying the fee.",
+    "id: q20 | question: Is there a medical center on campus? | answer: Yes. Campus Medical Center is available 24x7. Contact +91-79-88889999.",
+    "id: q21 | question: What is the attendance requirement? | answer: Students must maintain minimum 75% attendance to be eligible for end semester exams; medical exemptions require documentation.",
+    "id: q22 | question: When are placement activities conducted? | answer: Pre-placement talks occur Aug-Sep, application window Sep-Oct, and final placements typically Nov-Dec.",
+    "id: q23 | question: Who should I contact for IT help? | answer: Contact IT Helpdesk at ithelp@example.edu or phone +91-79-33332222 during office hours.",
+    "id: q24 | question: Can I transfer credits from another university? | answer: Lateral entry or transfers are subject to availability and require transcripts and an NOC from the previous institute.",
+    "id: q25 | question: What is the policy on plagiarism? | answer: Plagiarism and cheating are punishable under the Academic Integrity Policy; penalties may include re-exams or disciplinary action.",
+    "id: q26 | question: Are there clubs and societies? | answer: Yes. The university has multiple clubs: coding club, design society, media club, entrepreneurship cell, and more.",
+    "id: q27 | question: How to find library timings? | answer: Library timings are Monday-Saturday 9:00am to 8:00pm. Contact library@example.edu for more details.",
+    "id: q28 | question: What is the application fee? | answer: The application processing fee is ₹1,200 and is non-refundable.",
+    "id: q29 | question: How to register for the Internship Fair? | answer: Register via the placement portal by the date specified in the internship fair announcement.",
+    "id: q30 | question: Do you provide placement handbooks? | answer: Yes. Placement resources and handbooks are available; see placement_resources_handbook.pdf.",
+    "id: q31 | question: How to check my exam venue? | answer: Exam venue details are posted on the student portal and department notice boards; check the Semester 2 exam schedule announcement.",
+    "id: q32 | question: What is the Women in STEM scholarship? | answer: Women in STEM Scholarship offers a 20% tuition waiver for eligible female students enrolling in engineering or CS programs.",
+    "id: q33 | question: Are there industry projects in curriculum? | answer: Yes. Programs like B.Tech AI include industry-linked projects and a capstone project in the final year.",
+    "id: q34 | question: How to contact hostel warden? | answer: Hostel wardens: Block A +91-79-AAAABBBB; Block B +91-79-CCCCDDDD.",
+    "id: q35 | question: What is the maximum portfolio size for B.Design? | answer: Maximum portfolio size is 10MB; submit as a 10-page PDF.",
+    "id: q36 | question: Where is the placement office located? | answer: Placement Cell is located in Room 210, Admin Block.",
+    "id: q37 | question: What is the highest package in 2024? | answer: The highest package recorded in 2024 was ₹18 LPA.",
+    "id: q38 | question: How are internship credits evaluated? | answer: Internship credits are awarded after supervisor evaluation and submission of a final report.",
+    "id: q39 | question: Can I defer admission? | answer: Admission deferral is considered on a case-by-case basis and requires formal application to the admissions office.",
+    "id: q40 | question: Who handles placements for B.Des students? | answer: Placement cell handles placements for all programs; design-specific recruiters are coordinated with the Design department."
+  ]
+}

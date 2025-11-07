@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# Editors/IDE
+.vscode/
+.idea/
+
+# Node/Frontend
+node_modules/
+frontend/node_modules/
+frontend/.next/
+frontend/.svelte-kit/
+frontend/build/
+frontend/dist/
+
+# Local env
+.env
+
+# Logs & runtime
+*.log
+
+# Media/artifacts
+*.wav
+*.mp3
+*.flac
+
+# Large embedded repos
+llama.cpp/
+whisper.cpp/
+
+# OS cruft
+Thumbs.db

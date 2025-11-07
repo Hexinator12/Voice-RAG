@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Upload WAV -> Backend</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Upload WAV — Backend TTS Demo</h1>
+
+      <form id="uploadForm">
+        <label for="file">Select WAV file</label>
+        <input
+          id="file"
+          name="file"
+          type="file"
+          accept=".wav,audio/wav"
+          required
+        />
+        <button id="send" type="submit">Upload & Process</button>
+      </form>
+
+      <div id="status" class="muted">Idle</div>
+
+      <section id="results" hidden>
+        <h2>Transcript</h2>
+        <pre id="transcript"></pre>
+
+        <h2>Answer</h2>
+        <pre id="answer"></pre>
+
+        <h2>Audio</h2>
+        <div id="audioHolder"></div>
+      </section>
+
+      <div id="error" role="alert"></div>
+    </main>
+
+    <script>
+      const uploadForm = document.getElementById("uploadForm");
+      const fileInput = document.getElementById("file");
+      const status = document.getElementById("status");
+      const results = document.getElementById("results");
+      const transcriptEl = document.getElementById("transcript");
+      const answerEl = document.getElementById("answer");
+      const audioHolder = document.getElementById("audioHolder");
+      const errorEl = document.getElementById("error");
+
+      // Set this to your backend URL:
+      const BACKEND_URL = "http://127.0.0.1:8000/upload-audio";
+
+      uploadForm.addEventListener("submit", async (e) => {
+        e.preventDefault();
+        errorEl.textContent = "";
+        results.hidden = true;
+        audioHolder.innerHTML = "";
+        transcriptEl.textContent = "";
+        answerEl.textContent = "";
+
+        const file = fileInput.files[0];
+        if (!file) {
+          errorEl.textContent = "Pick a .wav file first.";
+          return;
+        }
+        status.textContent = "Uploading...";
+        const form = new FormData();
+        form.append("file", file);
+
+        try {
+          const res = await fetch(BACKEND_URL, {
+            method: "POST",
+            body: form,
+          });
+
+          if (!res.ok) {
+            const txt = await res.text();
+            throw new Error("Backend error: " + res.status + " — " + txt);
+          }
+
+          const json = await res.json();
+
+          // Display textual fields if present
+          if (json.transcript) transcriptEl.textContent = json.transcript;
+          if (json.answer) answerEl.textContent = json.answer;
+
+          // If backend returned base64 audio string in a field like audio_base64
+          const b64 = json.audio_base64 || json.audio || json.wav_base64;
+          if (b64) {
+            // Create an <audio> element using data URI
+            const audio = document.createElement("audio");
+            audio.controls = true;
+            // assuming WAV (change mime if your backend gives mp3)
+            audio.src = "data:audio/wav;base64," + b64;
+            audioHolder.appendChild(audio);
+
+            // also provide a download link
+            const dl = document.createElement("a");
+            dl.href = audio.src;
+            dl.download = "reply.wav";
+            dl.textContent = "Download WAV";
+            dl.style.display = "inline-block";
+            dl.style.marginLeft = "12px";
+            audioHolder.appendChild(dl);
+          } else {
+            audioHolder.textContent = "No audio found in response.";
+          }
+
+          results.hidden = false;
+          status.textContent = "Done";
+        } catch (err) {
+          console.error(err);
+          errorEl.textContent = err.message || String(err);
+          status.textContent = "Error";
+        }
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "files.exclude": {
+    "**/whisper.cpp/whisper.android": true,
+    "**/whisper.cpp/whisper.android/**": true,
+    "**/whisper.cpp/bindings/java": true,
+    "**/whisper.cpp/bindings/java/**": true,
+    "**/whisper.cpp/examples/whisper.android": true
+  },
+  "search.exclude": {
+    "**/whisper.cpp/whisper.android": true,
+    "**/whisper.cpp/bindings/java": true
+  },
+  "java.configuration.updateBuildConfiguration": "disabled",
+  "java.import.gradle.enabled": false
+}
